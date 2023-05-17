@@ -1,0 +1,71 @@
+{% extends "base/default.html" %}
+{% load custom_filters %}
+
+{% block content %}
+<div class="container py-3">
+    <form method="POST" action="{% url 'config' %}">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col-12 d-flex justify-content-between">
+                <h2 class="py-3">Configurações</h2>
+                <span>
+                  <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-check"></i>
+                    Salvar
+                  </button>
+                </span>
+            </div>
+            <div class="col-12">
+                <!-- Abas -->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a
+                            class="nav-link active"
+                            id="general-tab"
+                            data-bs-toggle="tab"
+                            href="#general"
+                        >Geral</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            id="plugins-tab"
+                            data-bs-toggle="tab"
+                            href="#plugins"
+                        >Plugins</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            id="users-tab"
+                            data-bs-toggle="tab"
+                            href="#users"
+                        >Usuários</a>
+                    </li>
+                </ul>
+                <!-- Conteúdo das abas -->
+                <div class="tab-content mt-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="tab-pane fade show active" id="general">
+                                <div class="form-group mb-3">
+                                    <label for="{{ form.siteName.id_for_label }}">Nome do Site</label>
+                                    {{ form.siteName|add_class:'form-control' }}
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="{{ form.siteTheme.id_for_label }}">Tema do Site</label>
+                                    {{ form.siteTheme|add_class:'form-select' }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="plugins">
+                        <!-- Conteúdo da aba Plugins --></div>
+                    <div class="tab-pane fade" id="users">
+                        <!-- Conteúdo da aba Usuários --></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
