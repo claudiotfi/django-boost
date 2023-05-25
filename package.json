@@ -1,0 +1,10 @@
+{
+  "name": "psych",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tailwindcss -i ./styles.css -o ./static/styles.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
