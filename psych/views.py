@@ -21,7 +21,7 @@ def config(request):
             config_data['siteThemes'] = get_config().get('siteThemes', [])
             with open(config_path, 'w') as file:
                 json.dump(config_data, file)
-            return redirect('dashboard')
+            return redirect('config')
 
     else:
         with open(config_path) as file:
