@@ -1,16 +1,9 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-            crossorigin="anonymous"
-        >
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
@@ -19,111 +12,90 @@
         >
         <title>{{ config.siteName }}</title>
         <link rel="stylesheet" href="{% static 'styles.css' %}">
-
-
+        <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="/dashboard">
-                    <i class="bi bi-tv"></i>
-                    Dashboard
-                </a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                role="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                            <i class="bi bi-sliders"></i>
-                                Sistema
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="/users/">
-                                        <i class="bi bi-people-fill"></i>
-                                        Usuários
+        <nav class="bg-gray-800">
+            <div class="container mx-auto">
+                <div class="flex h-16 justify-between">
+                    <div class="flex">
+                        <a href="/" class="flex items-center text-white">
+                            <i class="bi bi-tv mr-2 text-2xl"></i>
+                            <span class="text-lg font-semibold">Dashboard</span>
+                        </a>
+                        <button class="text-white focus:outline-none lg:hidden">
+                            <svg class="h-6 w-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-current text-gray-300" d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </button>
+                        <div class="hidden lg:flex lg:w-auto lg:items-center">
+                            <ul class="flex items-start">
+                                <li class="group relative" x-data="{ open: false }">
+                                    <a href="#" class="flex items-center rounded-md px-5 py-2 text-white hover:text-gray-300" @click="open = !open">
+                                        <i class="bi bi-sliders mr-2 text-lg"></i>
+                                        <span class="font-medium">Sistema</span>
                                     </a>
+                                    <ul class="absolute left-0 ml-2 mt-2 bg-gray-700 py-2 text-white" x-show="open" @click.away="open = false">
+                                        <li>
+                                            <a href="/users/" class="whitespace-nowrap block px-5 py-2 hover:bg-gray-600">
+                                                <i class="bi bi-people-fill mr-2 text-lg"></i>
+                                                Usuários
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/config/" class="whitespace-nowrap block px-5 py-2 hover:bg-gray-600">
+                                                <i class="bi bi-nut mr-2 text-lg"></i>
+                                                Configurações
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <a class="dropdown-item" href="/config/">
-                                        <i class="bi bi-nut"></i>
-                                        Configurações
+                                <li class="group relative" x-data="{ open: false }">
+                                    <a href="#" class="flex items-center rounded-md px-5 py-2 text-white hover:text-gray-300" @click="open = !open">
+                                        <i class="bi bi-hdd mr-2 text-lg"></i>
+                                        <span class="font-medium">Plugins</span>
                                     </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                role="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                            <i class="bi bi-hdd"></i>
-                                Plugins
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">
-                                        <i class="bi bi-file-post"></i>
-                                        Plugin 1
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">
-                                        <i class="bi bi-file-post"></i>
-                                        Plugin 2
-                                    </a>
-                                </li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li>
-                                    <a class="dropdown-item" href="#">
-                                        <i class="bi bi-usb-drive"></i>
-                                        Instalar Plugin
-                                    </a>
+                                    <ul class="absolute left-0 ml-2 mt-2 bg-gray-700 py-2 text-white" x-show="open" @click.away="open = false">
+                                        <li>
+                                            <a href="#" class="whitespace-nowrap block px-5 py-2 hover:bg-gray-600">
+                                                <i class="bi bi-file-post mr-2 text-lg"></i>
+                                                Plugin 1
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="whitespace-nowrap block px-5 py-2 hover:bg-gray-600">
+                                                <i class="bi bi-file-post mr-2 text-lg"></i>
+                                                Plugin 2
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 border-t border-gray-600"></li>
+                                        <li>
+                                            <a href="#" class="whitespace-nowrap block px-5 py-2 hover:bg-gray-600">
+                                                <i class="bi bi-usb-drive mr-2 text-lg"></i>
+                                                Instalar Plugin
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                role="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                                <i class="bi bi-person-circle"></i>
-                                John Doe
+                        </div>
+                    </div>
+                    <ul class="flex items-center">
+                        <li class="group relative" x-data="{ open: false }">
+                            <a href="#" class="flex items-center rounded-md px-5 py-2 text-white hover:text-gray-300" @click="open = !open">
+                                <i class="bi bi-person-circle mr-2 text-lg"></i>
+                                <span class="font-medium">John Doe</span>
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="absolute left-0 ml-2 mt-2 bg-gray-700 py-2 text-white" x-show="open" @click.away="open = false">
                                 <li>
-                                    <a class="dropdown-item" href="#">
-                                        <i class="bi bi-pencil-square"></i>
-                                        Perfil
+                                    <a href="#" class="whitespace-nowrap block px-5 py-2 hover:bg-gray-600">
+                                        <i class="bi bi-pencil-square mr-2 text-lg"></i>
+                                        Meus Dados
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">
-                                        <i class="bi bi-box-arrow-right"></i>
+                                    <a href="#" class="whitespace-nowrap block px-5 py-2 hover:bg-gray-600">
+                                        <i class="bi bi-box-arrow-right mr-2 text-lg"></i>
                                         Sair
                                     </a>
                                 </li>
@@ -133,7 +105,7 @@
                 </div>
             </div>
         </nav>
-        {% block content %}{% endblock %}
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        {% block content %}
+        {% endblock %}
     </body>
 </html>

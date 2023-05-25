@@ -6,9 +6,8 @@ from django.conf.urls.static import static
 from .views import dashboard, config
 
 urlpatterns = [
-    path('', lambda request: redirect('/dashboard/')),  # Redireciona '/' para '/dashboard/'
+    path('', dashboard, name='dashboard'),
     path('admin/', admin.site.urls),
-    path('dashboard/', dashboard, name='dashboard'),
     path('config/', config, name='config')
 ]
 
