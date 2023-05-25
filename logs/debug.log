@@ -873,3 +873,7 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 19: 's
 2023-05-25 18:00:18,143 [INFO] Watching for file changes with StatReloader
 2023-05-25 18:43:35,079 [WARNING] Not Found: /users/
 2023-05-25 19:24:16,001 [WARNING] Not Found: /favicon.ico
+2023-05-25 19:32:13,587 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-05-25 19:32:13,740 [INFO] Watching for file changes with StatReloader
+2023-05-25 19:32:53,923 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-05-25 16:32:54,069 [INFO] Watching for file changes with StatReloader
