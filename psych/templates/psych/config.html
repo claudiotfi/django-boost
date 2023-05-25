@@ -10,32 +10,32 @@
       <div class="flex justify-between items-center">
         <h2 class="text-2xl">Configurações</h2>
         <span>
-          <button type="submit" class="bg-blue-500 text-white rounded shadow px-5 py-3">
+          <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white rounded shadow px-5 py-3">
             <i class="bi bi-check-lg"></i>
           </button>
         </span>
       </div>
       <div class="col-12">
         <!-- Abas -->
-        <ul class="flex border-b border-gray-200 mt-3">
-          <li class="mr-1" :class="{ 'border-b-2 border-blue-500 dark:border-yellow-500': activeTab === 'general' }">
+        <ul class="flex border-b border-gray-200 dark:border-gray-600 mt-3">
+          <li class="mr-1" :class="{ 'border-b-2 border-blue-500 dark:border-green-500': activeTab === 'general' }">
             <a
-              class="inline-block py-2 px-4 hover:text-blue-500 text-gray-500 dark:hover:text-yellow-500 font-semibold cursor-pointer"
-              :class="activeTab === 'general' ? 'text-blue-500 dark:text-yellow-500' : 'text-gray-500'"
+              class="inline-block py-2 px-4 hover:text-blue-500 text-gray-500 dark:hover:text-green-500 font-semibold cursor-pointer"
+              :class="activeTab === 'general' ? 'text-blue-500 dark:text-green-500' : 'text-gray-500'"
               @click="activeTab = 'general'"
             >Geral</a>
           </li>
-          <li class="mr-1" :class="{ 'border-b-2 border-blue-500 dark:border-yellow-500': activeTab === 'plugins' }">
+          <li class="mr-1" :class="{ 'border-b-2 border-blue-500 dark:border-green-500': activeTab === 'plugins' }">
             <a
-              class="inline-block py-2 px-4 hover:text-blue-500 text-gray-500 dark:hover:text-yellow-500 font-semibold cursor-pointer"
-              :class="activeTab === 'plugins' ? 'text-blue-500 dark:text-yellow-500' : 'text-gray-500'"
+              class="inline-block py-2 px-4 hover:text-blue-500 text-gray-500 dark:hover:text-green-500 font-semibold cursor-pointer"
+              :class="activeTab === 'plugins' ? 'text-blue-500 dark:text-green-500' : 'text-gray-500'"
               @click="activeTab = 'plugins'"
             >Plugins</a>
           </li>
-          <li class="mr-1" :class="{ 'border-b-2 border-blue-500 dark:border-yellow-500': activeTab === 'users' }">
+          <li class="mr-1" :class="{ 'border-b-2 border-blue-500 dark:border-green-500': activeTab === 'users' }">
             <a
-              class="inline-block py-2 px-4 hover:text-blue-500 text-gray-500 dark:hover:text-yellow-500 font-semibold cursor-pointer"
-              :class="activeTab === 'users' ? 'text-blue-500 dark:text-yellow-500' : 'text-gray-500'"
+              class="inline-block py-2 px-4 hover:text-blue-500 text-gray-500 dark:hover:text-green-500 font-semibold cursor-pointer"
+              :class="activeTab === 'users' ? 'text-blue-500 dark:text-green-500' : 'text-gray-500'"
               @click="activeTab = 'users'"
             >Usuários</a>
           </li>
@@ -46,11 +46,11 @@
           <div id="general" class="py-4 space-y-5" x-show="activeTab === 'general'">
             <div class="block w-1/3">
               <label for="{{ form.siteName.id_for_label }}" class="block w-full">Nome do Site</label>
-              {{ form.siteName|add_class:'dark:bg-gray-600 block w-full rounded border shadow px-5 py-2' }}
+              {{ form.siteName|add_class:'block w-full shadow px-5 py-2 rounded border border-gray-200 dark:bg-gray-900 dark:border-gray-700' }}
             </div>
             <div class="block w-1/3">
               <label for="{{ form.siteTheme.id_for_label }}" class="block w-full">Tema do Site</label>
-              {{ form.siteTheme|add_class:'dark:bg-gray-600 block w-full rounded border shadow px-5 py-2' }}
+              {{ form.siteTheme|add_class:'block w-full shadow px-5 py-2 rounded border border-gray-200 dark:bg-gray-900 dark:border-gray-700' }}
             </div>
           </div>
 
