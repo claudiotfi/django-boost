@@ -8,7 +8,7 @@ from .forms import ConfigForm
 
 def dashboard(request):
     config = get_config()
-    return render(request, 'psych/dashboard.html', {'config': config})
+    return render(request, 'dashboard.html', {'config': config})
 
 def config(request):
     config = get_config()
@@ -28,4 +28,4 @@ def config(request):
             config_data = json.load(file)
         form = ConfigForm(initial=config_data, site_themes=get_config().get('siteThemes', []))
     
-    return render(request, 'psych/config.html', {'form': form, 'config': config})
+    return render(request, 'config.html', {'form': form, 'config': config})
