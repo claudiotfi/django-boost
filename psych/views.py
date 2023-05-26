@@ -5,6 +5,7 @@ from django.http import HttpResponse
 from django.conf import settings
 from .utils import get_config
 from .forms import ConfigForm
+from django.contrib import messages
 
 def dashboard(request):
     config = get_config()
