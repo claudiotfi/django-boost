@@ -48,4 +48,4 @@ def connectTo(request, cliente_alias):
         # Tratar erros de conexão
         messages.error(request, f"Erro ao conectar ao banco de dados: {e}")
 
-    return redirect('/')
+    return redirect('/clientes')

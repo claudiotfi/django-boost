@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'middleware.cliente_middleware.ClienteMiddleware',
+    #'middleware.cliente_middleware.ClienteMiddleware',
     'psych.middlewares.ConfigMiddleware',
 ]
 

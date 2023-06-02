@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.btn-dark {
+    @apply px-4 py-2 rounded shadow
+        text-white dark:text-white 
+}
+.btn-ligth {
+    @apply px-4 py-2 rounded shadow
+        text-gray-900 dark:text-gray-900
+}
