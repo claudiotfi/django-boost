@@ -1,2 +1,4 @@
 psych/settings.py
 db.sqlite3
+psych/__pycache__
+clientes/__pycache__

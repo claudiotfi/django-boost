@@ -14,13 +14,11 @@ class ConfigMiddleware:
 class ContextProcessorMiddleware:
     def __init__(self, get_response):
         self.get_response = get_response
+        self.log = 'texto estático'
 
     def __call__(self, request):
         # Lógica do contexto do processador aqui
-        request.debug = 'texto estático'
-        
-        # Log da variável request.debug
-        logging.debug(f"Valor de request.debug: {request.debug}")
+        request.log = self.log
         
         return self.get_response(request)
 
