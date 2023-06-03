@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 import os
 import logging
+from .middlewares import ContextProcessorMiddleware
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -53,6 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     #'middleware.cliente_middleware.ClienteMiddleware',
     'psych.middlewares.ConfigMiddleware',
+    'psych.middlewares.ContextProcessorMiddleware',
 ]
 
 ROOT_URLCONF = 'psych.urls'

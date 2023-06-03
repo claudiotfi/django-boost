@@ -1,99 +1,332 @@
-2023-05-26 12:58:04,151 [INFO] Watching for file changes with StatReloader
-2023-05-26 12:58:57,313 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 12:58:57,477 [INFO] Watching for file changes with StatReloader
-2023-05-26 12:59:43,619 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 12:59:43,769 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:07:48,870 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:09:27,786 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:11:17,094 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:15:43,809 [INFO] /home/claudio/projetos/psych/psych/views.py changed, reloading.
-2023-05-26 13:15:43,958 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:16:28,101 [INFO] /home/claudio/projetos/psych/psych/views.py changed, reloading.
-2023-05-26 13:16:28,248 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:17:56,716 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:18:39,854 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 13:18:40,021 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:18:50,179 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:21:03,563 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 13:21:03,711 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:21:42,837 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 13:21:42,981 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:21:46,017 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 13:21:46,169 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:21:53,218 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:22:46,174 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:23:22,475 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:26:24,984 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 13:26:25,129 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:30:57,834 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 13:30:57,983 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:31:39,107 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 13:31:39,252 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:31:43,296 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 13:31:43,452 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:33:21,715 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 13:33:21,865 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:34:42,093 [INFO] /home/claudio/projetos/psych/psych/urls.py changed, reloading.
-2023-05-26 13:34:42,236 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:35:10,371 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
-2023-05-26 13:35:10,521 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:35:15,532 [ERROR] Internal Server Error: /
+2023-06-03 10:11:32,917 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:12:13,125 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 10:13:03,887 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:19:12,717 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:46:41,975 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 10:46:42,134 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:46:45,214 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 10:46:45,372 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:46:58,205 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:52:27,317 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:52:45,219 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:53:24,235 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:54:02,417 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 10:54:02,580 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:54:12,039 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:55:11,293 [INFO] /home/claudio/projetos/psych/middleware/custom_context_processors.py changed, reloading.
+2023-06-03 10:55:11,465 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:55:15,581 [ERROR] Internal Server Error: /
 Traceback (most recent call last):
   File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
     response = get_response(request)
   File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
   File "/home/claudio/projetos/psych/psych/views.py", line 12, in dashboard
-    return render(request, template_path, {'config': config})
+    return render(request, 'dashboard.html', {'config': config})
   File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
     content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
-    raise TemplateDoesNotExist(template_name, chain=chain)
-django.template.exceptions.TemplateDoesNotExist: templates/psych/dashboard.html
-2023-05-26 13:40:16,527 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
-2023-05-26 13:40:16,675 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:40:20,920 [ERROR] Internal Server Error: /
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 173, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/context.py", line 251, in bind_template
+    processors = template.engine.template_context_processors + self._processors
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'psych.context_processors'
+2023-06-03 10:55:55,701 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 10:55:55,881 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:56:26,067 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 10:56:26,232 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:57:02,931 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:57:06,843 [ERROR] Internal Server Error: /
 Traceback (most recent call last):
   File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
     response = get_response(request)
   File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
   File "/home/claudio/projetos/psych/psych/views.py", line 12, in dashboard
-    return render(request, template_path, {'config': config})
+    return render(request, 'dashboard.html', {'config': config})
   File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
     content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
-    raise TemplateDoesNotExist(template_name, chain=chain)
-django.template.exceptions.TemplateDoesNotExist: templates/psych/dashboard.html
-2023-05-26 13:43:48,613 [INFO] /home/claudio/projetos/psych/psych/views.py changed, reloading.
-2023-05-26 13:43:48,770 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:44:02,880 [INFO] /home/claudio/projetos/psych/psych/views.py changed, reloading.
-2023-05-26 13:44:03,036 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:44:19,155 [INFO] /home/claudio/projetos/psych/clientes/views.py changed, reloading.
-2023-05-26 13:44:19,328 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:44:24,209 [ERROR] Internal Server Error: /
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 173, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/context.py", line 251, in bind_template
+    processors = template.engine.template_context_processors + self._processors
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'psych.context_processors'
+2023-06-03 10:58:10,241 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 10:58:10,397 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:58:22,501 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 10:58:22,672 [INFO] Watching for file changes with StatReloader
+2023-06-03 10:58:26,401 [ERROR] Internal Server Error: /
 Traceback (most recent call last):
   File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
     response = get_response(request)
   File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/claudio/projetos/psych/psych/views.py", line 11, in dashboard
-    return render(request, 'psych/dashboard.html', {'config': config})
+  File "/home/claudio/projetos/psych/psych/views.py", line 12, in dashboard
+    return render(request, 'dashboard.html', {'config': config})
   File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
     content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
-    raise TemplateDoesNotExist(template_name, chain=chain)
-django.template.exceptions.TemplateDoesNotExist: psych/dashboard.html
-2023-05-26 13:45:00,578 [INFO] /home/claudio/projetos/psych/psych/views.py changed, reloading.
-2023-05-26 13:45:00,736 [INFO] Watching for file changes with StatReloader
-2023-05-26 13:45:11,497 [ERROR] Internal Server Error: /clientes/
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 173, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/context.py", line 251, in bind_template
+    processors = template.engine.template_context_processors + self._processors
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'psych.context_processors'
+2023-06-03 11:01:09,283 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:01:09,439 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:01:18,439 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:03:03,470 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:04:54,295 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:06:06,590 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:06:06,748 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:06:54,973 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:06:55,130 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:07:01,800 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:10:04,438 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:10:04,604 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:10:07,483 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:10:11,892 [ERROR] Internal Server Error: /
 Traceback (most recent call last):
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/claudio/projetos/psych/psych/views.py", line 12, in dashboard
+    return render(request, 'dashboard.html', {'config': config})
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 173, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/context.py", line 251, in bind_template
+    processors = template.engine.template_context_processors + self._processors
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'psych.context_processors'
+2023-06-03 11:11:43,874 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:11:44,043 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:12:51,218 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:13:04,326 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:13:04,484 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:13:08,131 [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/claudio/projetos/psych/psych/views.py", line 12, in dashboard
+    return render(request, 'dashboard.html', {'config': config})
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 173, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/context.py", line 251, in bind_template
+    processors = template.engine.template_context_processors + self._processors
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'psych.context_processors'
+2023-06-03 11:15:40,172 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:15:44,221 [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/claudio/projetos/psych/psych/views.py", line 12, in dashboard
+    return render(request, 'dashboard.html', {'config': config})
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 173, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/context.py", line 251, in bind_template
+    processors = template.engine.template_context_processors + self._processors
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'psych.context_processors'
+2023-06-03 11:16:38,449 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:16:38,623 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:17:07,418 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:18:20,707 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:18:20,872 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:18:31,097 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:21:03,953 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:21:21,076 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:21:21,250 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:22:26,683 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:24:58,221 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:34:00,890 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:34:11,607 [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/claudio/projetos/psych/psych/views.py", line 12, in dashboard
+    return render(request, 'dashboard.html', {'config': config})
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 173, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/context.py", line 251, in bind_template
+    processors = template.engine.template_context_processors + self._processors
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 116, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'psych.context_processors'
+2023-06-03 11:34:57,155 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:34:57,323 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:36:50,763 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:36:50,929 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:37:48,200 [INFO] /home/claudio/projetos/psych/psych/middlewares.py changed, reloading.
+2023-06-03 11:37:48,353 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:39:46,813 [INFO] /home/claudio/projetos/psych/psych/middlewares.py changed, reloading.
+2023-06-03 11:39:46,973 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:39:50,469 [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/claudio/projetos/psych/psych/views.py", line 12, in dashboard
+    return render(request, 'dashboard.html', {'config': config})
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
   File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
     return self.template.render(context)
   File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
@@ -112,239 +345,30 @@ Traceback (most recent call last):
     return self.find_template(parent, context)
   File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 107, in find_template
     template, origin = context.template.engine.find_template(
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/claudio/projetos/psych/clientes/views.py", line 9, in index
-    return render(request, 'index.html', context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-2023-05-26 13:45:15,278 [ERROR] Internal Server Error: /clientes/
-Traceback (most recent call last):
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
-    return self._render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
-    return self.nodelist.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
-    return self.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 132, in render
-    compiled_parent = self.get_parent(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 129, in get_parent
-    return self.find_template(parent, context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 107, in find_template
-    template, origin = context.template.engine.find_template(
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/claudio/projetos/psych/clientes/views.py", line 9, in index
-    return render(request, 'index.html', context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-2023-05-26 13:48:12,402 [ERROR] Internal Server Error: /clientes/
-Traceback (most recent call last):
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
-    return self._render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
-    return self.nodelist.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
-    return self.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 132, in render
-    compiled_parent = self.get_parent(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 129, in get_parent
-    return self.find_template(parent, context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 107, in find_template
-    template, origin = context.template.engine.find_template(
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: psych/base/default.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/claudio/projetos/psych/clientes/views.py", line 9, in index
-    return render(request, 'index.html', context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: psych/base/default.html
-2023-05-26 13:48:13,938 [ERROR] Internal Server Error: /clientes/
-Traceback (most recent call last):
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
-    return self._render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
-    return self.nodelist.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
-    return self.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 132, in render
-    compiled_parent = self.get_parent(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 129, in get_parent
-    return self.find_template(parent, context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 107, in find_template
-    template, origin = context.template.engine.find_template(
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: psych/base/default.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/claudio/projetos/psych/clientes/views.py", line 9, in index
-    return render(request, 'index.html', context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: psych/base/default.html
-2023-05-27 19:09:58,999 [INFO] Watching for file changes with StatReloader
-2023-05-27 19:12:24,299 [INFO] Watching for file changes with StatReloader
-2023-05-27 19:13:41,335 [INFO] Watching for file changes with StatReloader
-2023-05-27 19:15:07,550 [INFO] /home/claudio/projetos/psych/clientes/views.py changed, reloading.
-2023-05-27 19:15:08,126 [INFO] Watching for file changes with StatReloader
-2023-06-02 18:16:45,629 [INFO] Watching for file changes with StatReloader
-2023-06-02 18:18:04,745 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
-2023-06-02 18:18:05,242 [INFO] Watching for file changes with StatReloader
-2023-06-02 18:18:06,730 [ERROR] Internal Server Error: /clientes/
-Traceback (most recent call last):
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
-    return super().execute(query, params)
-sqlite3.OperationalError: no such table: clientes
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/claudio/projetos/psych/clientes/views.py", line 12, in index
-    return render(request, 'index.html', context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
-    return self._render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
-    return self.nodelist.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
-    return self.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
-    return compiled_parent._render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
-    return self.nodelist.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
-    return self.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
-    result = block.nodelist.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
-    return self.render(context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 194, in render
-    len_values = len(values)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
-    self._fetch_all()
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
-    self._result_cache = list(self._iterable_class(self))
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
-    results = compiler.execute_sql(
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
-    return super().execute(sql, params)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
-    return self._execute_with_wrappers(
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
-    with self.db.wrap_database_errors:
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/claudio/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
-    return super().execute(query, params)
-django.db.utils.OperationalError: no such table: clientes
-2023-06-02 18:28:01,077 [WARNING] Not Found: /favicon.ico
-2023-06-02 18:28:57,078 [WARNING] Not Found: /favicon.ico
-2023-06-02 18:32:33,753 [WARNING] Not Found: /favicon.ico
-2023-06-02 18:34:34,572 [WARNING] Not Found: /favicon.ico
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/claudio/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+2023-06-03 11:42:28,581 [INFO] /home/claudio/projetos/psych/psych/settings.py changed, reloading.
+2023-06-03 11:42:28,743 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:43:06,951 [INFO] /home/claudio/projetos/psych/psych/middlewares.py changed, reloading.
+2023-06-03 11:43:07,121 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:49:22,409 [INFO] /home/claudio/projetos/psych/psych/middlewares.py changed, reloading.
+2023-06-03 11:49:22,564 [INFO] Watching for file changes with StatReloader
+2023-06-03 11:49:27,576 [DEBUG] Valor de request.debug: texto estático
+2023-06-03 11:49:57,757 [DEBUG] Valor de request.debug: texto estático
+2023-06-03 11:50:28,956 [DEBUG] Valor de request.debug: texto estático
+2023-06-03 11:50:49,341 [DEBUG] Valor de request.debug: texto estático

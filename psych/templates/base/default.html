@@ -1,4 +1,5 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-BR" {% if config.siteTheme == "Dark" %}class="dark"{% endif %}>
     <head>
@@ -11,7 +12,10 @@
             crossorigin="anonymous"
         >
         <title>{{ config.siteName }}</title>
-        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        
+        <link rel="stylesheet" href="/static/css/styles-{{ sufixo_css }}.css">
+
+
         <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
     </head>
     <body class="dark:bg-gray-800 dark:text-white">
@@ -121,6 +125,16 @@
         {% endif %}
 
         {% block content %}
+
         {% endblock %}
+        
     </body>
+
+    <script>
+        var debug = "{{ debug }}";
+        console.log(debug);
+    </script>
+    
+    
+    
 </html>
