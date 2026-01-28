@@ -1,3 +1,3 @@
-# Psych
+# Django Boost
 
-Não sabemos exatamente o que é isso ainda, mas assim que descobrirmos atualizo esse texto!
+Framework pré-configurado com funções iniciais para agilizar o desenvolvimento de aplicações
